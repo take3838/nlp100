@@ -11,3 +11,4 @@ char_bigrams = n_grams(text, 2)
 
 print("Word bi-grams:", word_bigrams)
 print("Character bi-grams:", char_bigrams)
+
