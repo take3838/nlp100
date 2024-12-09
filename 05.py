@@ -1,5 +1,8 @@
 def n_grams(seq, n):
-    return [seq[i:i+n] for i in range(len(seq) - n + 1)]
+    result = []
+    for i in range(len(seq) - n + 1):
+        result.append(seq[i:i+n])
+    return result
 
 # 文から単語bi-gram
 text = "I am an NLPer"
