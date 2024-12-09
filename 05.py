@@ -15,3 +15,7 @@ char_bigrams = n_grams(text_without_spaces, 2)
 
 print("単語 bi-grams:", word_bigrams)
 print("文字 bi-grams:", char_bigrams)
+
+ー出力ー
+単語 bi-grams: [['I', 'am'], ['am', 'an'], ['an', 'NLPer']]
+文字 bi-grams: ['Ia', 'am', 'ma', 'an', 'nN', 'NL', 'LP', 'Pe', 'er']
