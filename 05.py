@@ -6,9 +6,9 @@ text = "I am an NLPer"
 words = text.split()
 word_bigrams = n_grams(words, 2)
 
-# 文から文字bi-gram
-char_bigrams = n_grams(text, 2)
+# 文から文字bi-gram (空白を除外)
+text_without_spaces = text.replace(" ", "")
+char_bigrams = n_grams(text_without_spaces, 2)
 
-print("Word bi-grams:", word_bigrams)
-print("Character bi-grams:", char_bigrams)
-
+print("単語 bi-grams:", word_bigrams)
+print("文字 bi-grams:", char_bigrams)
