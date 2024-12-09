@@ -13,4 +13,7 @@ def typoglycemia(text):
 
 sample_text = "I couldn’t believe that I could actually understand what I was reading : the phenomenal power of the human mind ."
 result = typoglycemia(sample_text)
-print("Scrambled text:", result)
+print(result)
+
+ー出力ー
+I co’ndult believe that I culod acltaluy utnenrsadd what I was riaedng : the pnahmeeonl peowr of the huamn mind .
