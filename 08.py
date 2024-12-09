@@ -13,3 +13,7 @@ decrypted = cipher(encrypted)
 
 print("暗号化:", encrypted)
 print("復号化:", decrypted)
+
+ー出力ー
+暗号化: Hvool Wliow!
+復号化: Hello World!
